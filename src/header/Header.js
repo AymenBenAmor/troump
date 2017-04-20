@@ -26,14 +26,14 @@ export default class Header extends React.Component {
   }
 
   render() {
-    return (<View style={{flex: 1, flexDirection: 'row'}}>
+    return (<View style={{flexDirection: 'row'}}>
       <View>
         <TouchableOpacity onPress={this.openMenu}>
           <Image style={{width: 50, height: 50}} source={require('../assets/img/menu.png')}/>
         </TouchableOpacity>
       </View>
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-        <Text style={{justifyContent: 'center', alignItems: 'center', fontSize: 24, fontWeight: '700'}}>{this.props.name}</Text>
+        <Text style={{justifyContent: 'center', alignItems: 'center', fontSize: 24, fontWeight: '700'}}>Troump</Text>
       </View>
       <Modal
         animationType={"slide"}
